@@ -1,0 +1,404 @@
+body{
+    
+    font-family: roboto, -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 3000px;
+   
+    
+
+    
+}
+
+.header-logo{
+    display: inline-block;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 50px 0 20px 50px;
+    text-align: center;
+    background-color:white;
+    
+    
+
+
+}
+.text{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 150px;
+    color: black;
+    
+    
+
+}
+.background-logo{
+    padding-right: 200px;
+    height: 50px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    /* padding-top: 50px; */
+    background-image:   linear-gradient(90deg, rgba(0,0,0,0.6) 0%, 
+    rgba(0,0,0,0.8) 100%); 
+    background-size: cover;
+    width: 1349px;
+    height: 800px;
+    background-repeat: no-repeat; 
+    z-index: -1;
+  }
+.title {
+    font-family: proxima-nova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-weight: 400;
+    font-size: 64px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white
+    text-align: center;
+}
+.contact{
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    /* padding-left: 9px;
+    padding-bottom: 10px; */
+    border: none;
+    padding: 5px 10px 5px 10px;
+    
+}
+.page-writeup{
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    
+}
+.contact:hover{
+    background-color: cornsilk;
+}
+.lead{
+    font-size: 30px;
+}
+.background-image{
+    position: absolute;
+    margin-right:-20;
+    margin-left: -8px;
+    margin-top: 150px;
+    background-image:url(project-background.jpg);
+    background-size: cover;
+    width: 1349px;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+.next-line{
+    display: flex;
+    color: black;
+    font-size: ;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.container-writeup, .container-writeups{
+   border: 1px solid rgb(194, 193, 193);
+   width: 568px;
+   margin-top: -25px;
+   padding-bottom: 30px;
+   border-top: none;
+   padding-top: 20px;
+   
+}
+.container-writeups{
+    padding-bottom: 55px;
+}
+.container{
+    margin-left: 90px;
+    margin-top: 70px;
+    width: 50px;
+    display: inline-block;
+    
+}
+.overall-container{
+    display: grid;
+	grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+.image-text, .image-writing{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.image-link{
+   text-indent: 10px;
+    text-decoration: none;
+    color: #814ebf;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.image-content{
+    margin-top: 120px;
+    margin-left: 90px ;
+    position: relative;
+}
+.smaller-image{
+    width:px;
+    position: absolute;
+    top:400px;
+    right: 0;
+    left:60%;
+}
+.button{
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(245, 245, 235);
+}
+.smaller-image-content{
+    position: absolute;
+    top:400px;
+    right: 0;
+    left:62%;
+    color: white;
+    z-index: 1;
+    padding: 10px;
+
+}
+#writing{
+    font-weight: bold;
+    font-size: 30px;
+}
+.image-content-02{
+    margin-top: 230px;
+    margin-left: 300px ;
+    position: relative;
+}
+.smaller-image-02{
+    width:px;
+    position: absolute;
+    top:350px;
+    right: 0;
+    left:0;
+}
+.smaller-image-content-02{
+    width:px;
+    position: absolute;
+    top:350px;
+    left:0;
+    right:0;
+    margin-left: -240px;
+    color: white;
+    z-index: 1;
+    padding: 10px;
+    margin-top: -15px;
+
+}
+.image-content-03{
+    margin-top: 180px;
+    margin-left: 40px ;
+    position: relative;
+}
+.smaller-image-03{
+    width:px;
+    position: absolute;
+    top:400px;
+    right: 0;
+    left:45%;
+}
+.smaller-image-content-03{
+    position: absolute;
+    top:400px;
+    right: 0;
+    left:50%;
+    color: white;
+    z-index: 1;
+    padding: 10px;
+}
+.after-card-text{
+    display: flex;
+    margin-top:300px;
+    flex-basis: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: rowrap;
+    font-family: proxima-nova,sans-serif;
+    font-size: 30px;
+}
+.after-card-text-contact{
+    text-transform: uppercase;
+   text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #814ebf;
+    color: white;
+    margin-left: 580px;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    font-size: 1.125rem;
+    line-height: 2;
+ 
+}
+.after-card-text-contact:hover{
+    background-color: rgb(63, 6, 87);
+}
+.testimonial{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 2px;
+    }
+    .testimonial-02{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 1.75px;
+        center;
+        color: #000;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+.contact-us{
+   
+    width: 1349px;
+    height: 300px;
+    margin-top: 110px;
+    background-color: #814EBF;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.contact-us-footer{
+flex-basis: 100%;
+margin-bottom: 18px;
+margin-top: auto;
+font-weight: 800;
+    font-size: 40px;
+}
+.contact-us-footer-p{
+margin top: -15px;
+font-weight: 300;
+font-size: 24px;
+line-height: 1.33;
+
+}
+.contact-us-button{
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    margin: auto;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.contact-us-button:hover{
+    background-color: rgb(255, 235, 235);
+}
+.contact-us-footer-container{
+    position: absolute;
+    left:  5%;
+    right: 0;
+    margin-top: 50px ;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.dark-footer{
+    font-family: proxima-nova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-weight: 400;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    padding: 60px 45px;
+    margin-left: ;
+}
+.dark-footer-link-01,
+.dark-footer-link-03,
+.dark-footer-link-02
+{
+    flex-basis: 100%;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: -9px;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+.dark-footer-01{
+    margin-left: 35px;
+}
+.footer-link-lg{
+    font
+}
+.dark-footer-02{
+    margin: -1px 200px -1px 150px;
+}
+.dark-footer-03{
+    margin-left: auto -550px;
+}
+.dark-footer-04{
+    margin-top: 2px;
+    margin-bottom: auto;
+    margin-left: 150px;
+}
+.footer-social-icon{
+width: 20px;
+}
+.dark-footer-title{
+        font-family: proxima-nova,sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 12px;
+        letter-spacing: 1.75px;
+        text-transform: uppercase;
+        color: #858585;
+        margin-bottom: 13px;
+    }
+    .footer-copy {
+        font-family: proxima-nova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        color: #858585;
+        margin-top: 15px;
+    }
+    .footer-link-lg{
+       
+        font-weight: 200;
+        font-style: normal;
+        color: #fff;
+        text-decoration: none;
+        }
+    .footer-link-lg-01{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 200;
+        font-size: 18px;
+    }
+
